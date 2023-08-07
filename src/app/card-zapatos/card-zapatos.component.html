@@ -1,0 +1,14 @@
+<h2>Listado de zapatos</h2>
+<div class="card" *ngFor="let zapato of zapatos" >
+  <h5 class="card-title">Nombre: {{zapato.nombre}} </h5>
+  <div class="card-body" >
+    <h5 class="card-title">id:{{zapato.id}}</h5>
+    <p class="card-text">precio:{{zapato.precio}}</p>
+    <img src="{{zapato.imagen}}" style="max-width:300px" style="max-height:200px" >
+    <a href="#" class="btn btn-primary">Botón</a>
+  <br>
+  </div>
+  <br>
+</div>
+<br>
+
